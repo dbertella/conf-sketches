@@ -16,7 +16,7 @@ Non tutti i browser supportano le tecnologie base delle progressive web app. Saf
 * Push notification: Grazie ai service worker è possibile mandare push notification
 * Offline: Tramite un proxy che sta in ascolto delle chiamate al server si possono gestire i dati offline
 
-## Case hitories
+## Case histories
 * Flip Cart: Ecommerce indiano partito con l'idea di creare una app nativa che ha riprogettato tutto il sito con in mente progressive web app e con grandi risultati.
 * Beyond the rack
 * Booking.com
