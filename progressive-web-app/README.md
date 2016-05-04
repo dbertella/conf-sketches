@@ -13,3 +13,4 @@
 * [1. intro](./1_intro.md)
 * [2. service worker - offline](./2_offline-service-worker.md)
 * [3. push notfication](./3_push-notfication.md)
+* [4. installing and instant loading](./4_instant-loading)
