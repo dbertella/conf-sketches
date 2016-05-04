@@ -46,3 +46,19 @@ Page shell, scheletro dell'applicazione da mostrare all'untente prima che l'app 
 * Cache first, falling back to network
 * Network first, falling back to cache: caso d'uso se si hanno risorse da aggiornare frequentemente. Problema possibile di timeout.
 * Cache then network: app di twitter
+
+## sw-precache
+Libreria di google per generare un sw data una lista di path di file da cacheare. Ogni risorsa aggiunta viene aggiornata una hash md5 per tenere conto della versione.
+
+## sw-toolbox
+Libreria che permette di gestire al meglio la nostra strategia di cache.
+
+```javascript
+importScripts()
+```
+ritorna un oggetto toolbox. Migliore debug, api per gestire una get con un timeout.
+
+```javascript
+toolbox.options.debug = true
+toolbox.router.get('/api', toolbox.networkFirst)
+```
