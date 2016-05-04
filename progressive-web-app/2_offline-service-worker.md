@@ -1,4 +1,4 @@
-# Progressive Web App #PWA - Service worker @silvia - Offline @granze
+# Progressive Web App #PWA - Service worker Silvia Righini - Offline @granze
 
 # Service worker
 Worker che intercetta le richieste http, funziona in un thread separato e non ha accesso al dom.
@@ -24,9 +24,9 @@ Il service worker verifica se una versione è differente da quella che ha salvat
 SW: api di basso livello e event driven.
 L'evento di fetch permette di controllare le richieste che vanno alla rete. Per esempio possiamo decidere di usare una versione cachata delle risorse.
 
-2012 Application cache, api di alto livello non permette di controllare veramente le risorse che si vogliono rendere disponibili offline. DEPRECATA
+2012 Application cache, api di alto livello non permette di controllare veramente le risorse che si vogliono rendere disponibili offline. **DEPRECATA**
 
-Nuova cache api messa a disposizione dai service worker:
+Nuova **Cache Api** messa a disposizione dai service worker:
 ```javascript
 const urlsToCache = ['/js/main.js', '/css/main.css']
 
