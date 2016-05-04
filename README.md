@@ -2,4 +2,5 @@
 
 My personal and opinionated sketches
 
-## [04/05/2016 Progressive web apps @googleitalia](./progressive-web-app/)
+## [Progressive web apps](./progressive-web-app/)
+ - 04/05/2016 @googleitalia Milan

@@ -14,3 +14,6 @@
 * [2. service worker - offline](./2_offline-service-worker.md)
 * [3. push notfication](./3_push-notfication.md)
 * [4. installing and instant loading](./4_instant-loading)
+
+## best link of the day
+http://wheel-of-names.appspot.com/static/index.html
