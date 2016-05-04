@@ -1,4 +1,4 @@
-# Progressive Web App #PWA - Making it installable and Instant loading Gilberto Cocchi
+# Progressive Web App #PWA - Making it installable and Instant loading by Gilberto Cocchi
 
 ## Installare la web app sul proprio dispositivo
 Il Manifest viene usato anche per definire come salvare sul proprio device android la web app. File json di configurazione.

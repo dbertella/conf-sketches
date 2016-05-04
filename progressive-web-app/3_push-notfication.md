@@ -1,4 +1,4 @@
-# Progressive Web App #PWA - Push notification @ludomagno
+# Progressive Web App #PWA - Push notification by @ludomagno
 
 Siti affidabili, veloci e coinvolgenti, attirare l'attenzione dell'utente e migliorare l'interazione con esso.
 **Notification Api**

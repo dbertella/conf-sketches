@@ -1,4 +1,4 @@
-# Progressive Web App #PWA - Service worker Silvia Righini - Offline @granze
+# Progressive Web App #PWA - Service worker by Silvia Righini - Offline by @granze
 
 # Service worker
 Worker che intercetta le richieste http, funziona in un thread separato e non ha accesso al dom.
@@ -62,3 +62,6 @@ ritorna un oggetto toolbox. Migliore debug, api per gestire una get con un timeo
 toolbox.options.debug = true
 toolbox.router.get('/api', toolbox.networkFirst)
 ```
+
+Thank you @granze
+![thank you @granze](https://pbs.twimg.com/media/ChnkVbdXIAE3Z5A.jpg:large)

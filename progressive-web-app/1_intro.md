@@ -1,4 +1,4 @@
-# Progressive Web App #PWA - Intro @rainbowbreeze
+# Progressive Web App #PWA - Intro by @rainbowbreeze
 
 
 
