@@ -28,3 +28,6 @@ In http si può fare una connessione tcp alla volta e il canale non si può util
 Http/2 utilizza una sola connessione ma le richieste diventano degli stream, tante richieste di file piccoli vengono concatenati in un unica connessione. Si possono inviare dati che hanno origine diversa.
 Multiplexing della stessa connessione che a loro volta vengono divisi in frames con diversi headers, gli headers ripetuti fra loro vengono salvati in cache e non vengono ripetuti.
 Retrocompatibile con http.
+
+## Recap
+![recap](https://pbs.twimg.com/media/Chn5Ve5XEAAnMGI.jpg:large)
