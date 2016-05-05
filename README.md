@@ -1,6 +1,6 @@
 # conferences-sketch
 
-My personal and opinionated sketches
+My personal and opinionated conf notes and sketches
 
 ## [Progressive web apps](./progressive-web-app/)
  - 04/05/2016 @googleitalia Milan [ita]
