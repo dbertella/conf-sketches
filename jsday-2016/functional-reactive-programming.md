@@ -64,3 +64,7 @@ Core concepts:
 - Drivers focus on interface for effects
 - It doesn't contain business logic
 - It receive inputs and return outputs in a predictable way. There can be read only or write only but they are edge cases
+
+Reactive programming using when you need to fetch lots of data from the back end
+
+What developers needs to know about MVI (link)
