@@ -14,4 +14,5 @@
 
 **Day 2**
 - [keynote](./keynote-day-2.md)
-- [](./building-reactive-rchitectures.md)
+- [Discover the information within your data with d3.js](./building-reactive-rchitectures.md)
+- [The Evolution of Asynchronous JavaScript]()
