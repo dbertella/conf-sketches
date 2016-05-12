@@ -14,3 +14,4 @@
 
 **Day 2**
 - [keynote](./keynote-day-2.md)
+- [](./building-reactive-rchitectures.md)
