@@ -16,3 +16,7 @@
 - [keynote](./keynote-day-2.md)
 - [Discover the information within your data with d3.js](./building-reactive-rchitectures.md)
 - [The Evolution of Asynchronous JavaScript](./asynchronous-javascript.md)
+- [(Web?) Components in production](./components-in-production.md)
+- [FFTT: A new concept of build tool](./fftt-modern-build-tool.md)
+- [Higher Order Components in React](./higher-order-components-in-react.md)
+- A Class Action
