@@ -9,7 +9,7 @@
 * Recap
 
 ## TOC
- - [What are Progressive Web Apps, Alfredo Morresi](./1_intro.md) - [slide](https://drive.google.com/open?id=1IXLWWT9oqkmOfXFNVOI6vX6PMg-OOYnnLsAg4Jw1b7E)
+- [What are Progressive Web Apps, Alfredo Morresi](./1_intro.md) - [slide](https://drive.google.com/open?id=1IXLWWT9oqkmOfXFNVOI6vX6PMg-OOYnnLsAg4Jw1b7E)
 - [Instant and Offline apps with Service Workers - Sivlia Righini](./2_offline-service-worker.md) - [slide](https://drive.google.com/open?id=11QkKWg8843u22YkscY-u6CLGyiXhLdMWfXPJtXprtnA)
 - [Service Workers and the offline experience - Maurizio Mangione](./2_offline-service-worker.md) - [slide](https://drive.google.com/open?id=1Mq8FEFl1Arm_h_xtgas9Ngk4DklYVGlBMJQxeEBzLj0)
 - [Deeper engagement with Push Notifications - Ludovico Magnocavallo](./3_push-notfication.md) - [slide](https://drive.google.com/open?id=1o74zbm-urcAREqwpIhwArkqcm0w225uoyH7L9UW6hSY)
