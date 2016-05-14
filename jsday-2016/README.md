@@ -15,8 +15,8 @@
 **Day 2**
 - [Shipping one of the largest Microsoft JavaScript applications (Visual Studio Code's story)](./keynote-day-2.md)
 - [Discover the information within your data with d3.js](./building-reactive-rchitectures.md)
-- [The Evolution of Asynchronous JavaScript](./asynchronous-javascript.md)[slide](http://www.slideshare.net/cirpo/the-evolution-of-asynchronous-javascript-61984337)
+- [The Evolution of Asynchronous JavaScript](./asynchronous-javascript.md) - [slide](http://www.slideshare.net/cirpo/the-evolution-of-asynchronous-javascript-61984337)
 - [(Web?) Components in production](./components-in-production.md)
 - [FFTT: A new concept of build tool](./fftt-modern-build-tool.md)
-- [Higher Order Components in React](./higher-order-components-in-react.md)
+- [Higher Order Components in React](./higher-order-components-in-react.md) - [slide](https://speakerdeck.com/cef62/higher-order-components-in-react-at-italian-jsday-2016)
 - A Class Action
