@@ -9,7 +9,7 @@
 - [What we need from the Web, and what it needs from us](./keynote-day-1.md)
 - [Functional and Asynchronous JavaScript Workshop](./workshop.md)
 - [Forgotten funky functions by Jakob](./forgotten-funky-functions.md)
-- [Functional Reactive programming](./functional-reactive-programming.md)
+- [Functional Reactive programming](./functional-reactive-programming.md)[slide](http://www.slideshare.net/flashplatform/reactive-programming-with-cyclejs)
 - [Out of the browser and onto the streets](./out-of-the-browser.md)
 
 **Day 2**
