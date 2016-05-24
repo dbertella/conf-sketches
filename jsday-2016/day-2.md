@@ -88,7 +88,7 @@ He called few witnesses for the *dispute*:
   > Does she really add something new to the language and will she simplify everybody's life
 
 *OOP is good for you... at least that what they say*
-[OOP is good for you... at least that what they say](http://thinknsmile.com/wp-content/uploads/2014/05/butter_is_good_for_you.jpg)
+![OOP is good for you... at least that what they say](http://thinknsmile.com/wp-content/uploads/2014/05/butter_is_good_for_you.jpg)
 
 If you want to write once and use your code in multiple situation, prototypal inheritance makes this easy not classes.
 
