@@ -1,4 +1,4 @@
-# Day 2
+# Day 2 (follow up from [day 1](./day-1.md))
 
 ## Keynote: Shipping one of the largest Microsoft JavaScript applications (Visual Studio Code's story)
 Alexandru Dima is a Microsoft developer in the VS Code team and he did a very great talk about the story of their product.

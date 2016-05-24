@@ -77,3 +77,5 @@ She talks about the newest web APIs such as `animation`, `audio`, `strem` and `m
 She showed us a demo with voice control from the microphone and then mixing music, video and visual animation.
 
 Last she ended up showing her hand made bag she's usign for VJing with a mac in it and her "mini" MIDI controller.
+
+# Still interested in [day 2](./day-1.md)?
