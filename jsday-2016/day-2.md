@@ -2,14 +2,35 @@
 
 ## Keynote: Shipping one of the largest Microsoft JavaScript applications (Visual Studio Code's story)
 Alexandru Dima is a Microsoft developer in the VS Code team and he did a very great talk about the story of their product.
-It was really helpful to understand at least why Microsoft didn't just fork *Atom editor* but create another one with same technology.
+
+It was really helpful to understand at least why Microsoft didn't just fork (and contribute on) *Atom editor* but they choose to create another editor with same technology.
+
 Basically they started in 2014 working on it using `node-webkit` as a platform switching to `electron` later on.
 He talked about the roadmap they had, early preview in April, beta in November 2015 and 1.0 in April 2016.
 Nice insights on the product, sure something to play with when you get bored of *Atom*.
 
 ## Building Reactive Architectures
-The talk by @mattpodwysocki was great, he took the first day workshop's presentation and explain it further, again *Functional reactive programming*, but a really nice and short talk, with all you need to know about RxJs.
-This man is a great on the stage with his sorcerer hat in the head. Nice talk to follow in my opinion.
+The talk by @mattpodwysocki was great, I was getting bored since everybody was speaking about this topic but he explain it further, again *Functional reactive programming*, but a really nice and short talk, with all you need to know about RxJs.
+
+Async is awful, we are living in a `Callback Hell` era and `Events and state are mess`.
+**Promise are only part of solution**.
+
+You can solve the Callback hell in the reactive way!
+
+Keys:
+- React to load
+- React to failure
+- React to users
+
+This man is a great on the stage with his sorcerer hat in the head.
+
+> You must flatMap it
+
+Nice talk to follow in my opinion.
+
+Conclusion: Make Reactive Great Again! Along with a new hat.
+<blockquote class="twitter-tweet" data-lang="it"><p lang="en" dir="ltr">Make Reactive Great Again! <a href="https://twitter.com/hashtag/MRGA?src=hash">#MRGA</a> <a href="https://twitter.com/hashtag/makereactivegreatagain?src=hash">#makereactivegreatagain</a> <a href="https://t.co/YMO2JEHdhd">pic.twitter.com/YMO2JEHdhd</a></p>&mdash; λ Calrissian (@mattpodwysocki) <a href="https://twitter.com/mattpodwysocki/status/718469012259217409">8 aprile 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Discover the information within your data with d3.js
 Not much to say about it, it was a really entry level talk by Daniela Mogini. Some insights on how to manipulate DOM, handling Array of data natively in D3js. The entry point was this is not jQuery but seems a lot like it to me in general. I know that D3.js it's really powerful but at the end of this talk I haven't feel much of the awesomeness.
