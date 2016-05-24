@@ -32,13 +32,13 @@ Pretty much same capabilities and user engagement without even the needs of inst
 With *PWA* you let the user choose and that for @shwetank can be the key.
 
 ## Functional Programming and Async Programming Workshop
-The topic was tempting but then after a tiny, and I need to say interesting, introduction from [@mattpodwysocki](https://twitter.com/mattpodwysocki) people lost the interest.
+The topic was tempting but then after a short and interesting introduction from [@mattpodwysocki](https://twitter.com/mattpodwysocki) people lost interest.
 
-Everybody was following the exercise from the reactivex [site](http://reactivex.io/learnrx/), that I really encourage you to take but maybe at your place since there wasn't any pro to be there staring at your computer.
+Everybody was following the exercise from the reactivex [site](http://reactivex.io/learnrx/), that I really encourage you to do, but I'd rather have done it at home than spenging my time there during the conference.
 
-It isn't a critic to him or to the organization but a remind to myself: don't be tempted by workshops next year.
+Not to criticise him or the organization but just to remind myself it may be better to focus on talk.
 
-Anyway presentation's slide can be found [here](https://github.com/mattpodwysocki/jsday-workshop-2016) along with all the other informations and I encourage you to check them out.
+Anyway presentation's slide can be found [here](https://github.com/mattpodwysocki/jsday-workshop-2016) along with all the other assets and I encourage you to check them out.
 
 ## Forgotten funky functions
 [@jakobmattsson](https://twitter.com/jakobmattsson) give a quick talk about javascript in general and what you can easily accomplish with function that you may even forgot. In javascript everything is so simple, but it has great things.
