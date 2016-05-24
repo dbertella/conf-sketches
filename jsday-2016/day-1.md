@@ -78,4 +78,4 @@ She showed us a demo with voice control from the microphone and then mixing musi
 
 Last she ended up showing her hand made bag she's usign for VJing with a mac in it and her "mini" MIDI controller.
 
-# Still interested in [day 2](./day-1.md)?
+# Still interested in [day 2](./day-2.md)?
