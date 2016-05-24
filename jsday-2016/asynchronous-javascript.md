@@ -23,7 +23,7 @@ Async callback is like push values
 Error handling, Inversion of control, How can you tell it's async?
 
 ### Promises
-Promise represent a proxy for a value, it associate hadlers on a single value.
+Promise represent a proxy for a value, it associate handlers on a single value.
 
 ES2015 jobs -> free pass on the rollercoaster of event loop.
 Mechanism inside js engine to go async

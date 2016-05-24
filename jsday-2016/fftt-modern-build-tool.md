@@ -44,4 +44,4 @@ Build system meet functional programming, immutable data structures, memoization
 You never mess with the environment, it's just data transformation other data.
 
 The build graph is declarative and functional. Each build step is imperative but inside a container, not messing up with system.
-Programming language independet.
+Programming language independent.

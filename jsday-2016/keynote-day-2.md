@@ -36,7 +36,7 @@ Trying to build the standard based on json, all the language support a single pr
 **November 2015 Beta, extensions and open sourced**
 Really lot of issues, and some great PRs.
 
-Try to be transparent as possible, may interation plan, and a roadmap that cover next 6 months.
+Try to be transparent as possible, may integration plan, and a roadmap that cover next 6 months.
 Questions on stack overflow
 Issue on github
 

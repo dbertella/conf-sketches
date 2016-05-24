@@ -30,7 +30,7 @@ Everything is a stream.
 
 **You must flatMap it.**
 
-### story od reactive programming
+### story on reactive programming
 - jquery: wrong
 - knockout or angular: 2 way data binding
 - angular 2: implement observables

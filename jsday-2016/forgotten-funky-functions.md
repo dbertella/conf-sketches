@@ -27,7 +27,7 @@ Stateful function, a function that remember its state.
 - MyConstructor.prototype
 - no types
 
-### ES6 or coffeescript syntatic sugar
+### ES6 or coffeescript syntactic sugar
 - class
 - constructor
 - super

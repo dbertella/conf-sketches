@@ -38,7 +38,7 @@ It works only with createClass method, not ES2015 classes.
 ### Higher Order Component
 High order function. Function that accept a function as an argument and return another function.
 
-HOC = High order function that return a compoent.
+HOC = High order function that return a component.
 
 ```
 const Wrapped = () => <h1>Wrapped Comp</h1>

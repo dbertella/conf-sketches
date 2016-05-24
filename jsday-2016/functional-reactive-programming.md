@@ -6,7 +6,7 @@
 
 ## Imperative, Functional, Reactive
 - Imperative: Describing step by step what you want to achieve. Object has a state
-- Functional: Manipulate data in the argument of the function, but you can't manipulate the intial data
+- Functional: Manipulate data in the argument of the function, but you can't manipulate the initial data
 - Reactive: Moving forward, used in backend development, in front end is quite new.
 
 ## Imperative vs Reactive
@@ -67,4 +67,4 @@ Core concepts:
 
 Reactive programming using when you need to fetch lots of data from the back end
 
-What developers needs to know about MVI (link)
+What developers needs to know about MVI [link](http://thenewstack.io/developers-need-know-mvi-model-view-intent/)
