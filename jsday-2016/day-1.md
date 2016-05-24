@@ -38,10 +38,10 @@ Everybody was following the exercise from the reactivex [site](http://reactivex.
 
 It isn't a critic to him or to the organization but a remind to myself: don't be tempted by workshops next year.
 
-Anyway slide of the presentation can be found [here](https://github.com/mattpodwysocki/jsday-workshop-2016) along with all the other informations and I encourage you to check them out.
+Anyway presentation's slide can be found [here](https://github.com/mattpodwysocki/jsday-workshop-2016) along with all the other informations and I encourage you to check them out.
 
 ## Forgotten funky functions
-@jakobmattsson give a quick talk about javascript in general and what you can easily accomplish with function that you may even forgot. In javascript everything is so simple, but it has great things.
+[@jakobmattsson](https://twitter.com/jakobmattsson) give a quick talk about javascript in general and what you can easily accomplish with function that you may even forgot. In javascript everything is so simple, but it has great things.
 3 main topics:
  - functional programming
  - meta programming
@@ -49,12 +49,12 @@ Anyway slide of the presentation can be found [here](https://github.com/mattpodw
 
 > Whenever you have a problem you can solve it with another function.
 
-He talked about `apply`, `call`, `clojure`, `eval`. Easy subjects that (almost) every js developer has doubt when he needs to play with.
+He talked about `apply`, `call`, `clojures`, `eval`. Subjects that (almost) every js developer has doubt on when he needs to play with.
 
-Useful explanation on ES6 or coffeescript classes syntactic sugar that you may not need if you first fully understand **Object.create**.
+He concluded with an useful explanation on ES6 or coffeescript classes syntactic sugar that you may not need if you first fully understand **Object.create**.
 
 ## Functional Reactive programming with React.js
-**Spoiler alert**, @lucamezzalira didn't talk about react at all! At the end he talked about cycle.js but it was a good excursus about RxJs.
+**Spoiler alert**, [@lucamezzalira](https://twitter.com/lucamezzalira) didn't talk about react at all! At the end he talked about cycle.js but it was a good *excursus* about RxJs.
 
 You have to start learning few concepts to understand reactive programming, like *streams*, [cold and hot observables](http://reactivex.io/documentation/observable.html) and [operators](http://reactivex.io/documentation/operators.html).
 
@@ -66,8 +66,9 @@ The conclusion was that *Functional Reactive programming* isn't always the best 
 You can find slides [here](http://www.slideshare.net/flashplatform/reactive-programming-with-cyclejs)
 
 ## Out of the browser and onto the streets
-@Rumyra did the most pleasant talk of the day, with music and visual, it was like party time!
-Apparently she's [VJing](https://github.com/Rumyra/VJing) at her city projecting visual on buildings. Would love to see her in action. Unfortunately she haven't had the chance to do it during the party in Verona, but maybe next year :-D.
+[@Rumyra](https://twitter.com/Rumyra) did the most pleasant talk of the day, with music and visual, it was party time already!
+
+Apparently she's [VJing](https://github.com/Rumyra/VJing) around projecting visual animations on buildings along with loud music. I'd love to see her in action. Unfortunately she haven't had the chance to do it during the party in Verona, but maybe next year 😀.
 
 I'm sure if you are into visualization and audio you have loved this.
 
@@ -75,4 +76,4 @@ She talks about the newest web APIs such as `animation`, `audio`, `strem` and `m
 
 She showed us a demo with voice control from the microphone and then mixing music, video and visual animation.
 
-Last she ended up showing her hand made bag she's usign for VJing with mac in it and the MIDI controller.
+Last she ended up showing her hand made bag she's usign for VJing with a mac in it and her "mini" MIDI controller.
