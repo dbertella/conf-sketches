@@ -36,27 +36,28 @@ The topic was tempting but then after a short and interesting introduction from 
 
 Everybody was following the exercise from the reactivex [site](http://reactivex.io/learnrx/), that I really encourage you to do, but I'd rather have done it at home than spenging my time there during the conference.
 
-Not to criticise him or the organization but just to remind myself it may be better to focus on talk.
+Not to criticise him or the organization but just to remind myself it may be better to focus on talks.
 
 Anyway presentation's slide can be found [here](https://github.com/mattpodwysocki/jsday-workshop-2016) along with all the other assets and I encourage you to check them out.
 
 ## Forgotten funky functions
-[@jakobmattsson](https://twitter.com/jakobmattsson) give a quick talk about javascript in general and what you can easily accomplish with function that you may even forgot. In javascript everything is so simple, but it has great things.
-3 main topics:
+[@jakobmattsson](https://twitter.com/jakobmattsson) gave a quick talk about javascript in general and what you can easily accomplish with function that you could have even forgotten. In javascript everything seems really simple, but still you can do great things.
+
+He talked about 3 main topics:
  - functional programming
  - meta programming
  - there is no class
 
 > Whenever you have a problem you can solve it with another function.
 
-He talked about `apply`, `call`, `clojures`, `eval`. Subjects that (almost) every js developer has doubt on when he needs to play with.
+@jakobmattsson discuss about `apply`, `call`, `clojures`, `eval`. Topics that (almost) every js developer has doubt about.
 
-He concluded with an useful explanation on ES6 or coffeescript classes syntactic sugar that you may not need if you first fully understand **Object.create**.
+He concluded with a useful explanation on ES6 or coffeescript classes syntactic sugar that you may not need if you first fully understand **Object.create**.
 
 ## Functional Reactive programming with React.js
 **Spoiler alert**, [@lucamezzalira](https://twitter.com/lucamezzalira) didn't talk about react at all! At the end he talked about cycle.js but it was a good *excursus* about RxJs.
 
-You have to start learning few concepts to understand reactive programming, like *streams*, [cold and hot observables](http://reactivex.io/documentation/observable.html) and [operators](http://reactivex.io/documentation/operators.html).
+You have to start learning a few concepts to understand reactive programming, like *streams*, [cold and hot observables](http://reactivex.io/documentation/observable.html) and [operators](http://reactivex.io/documentation/operators.html).
 
 If you are using a *Flux* implementation for your front end architecture or even worst MVC / MVVM / MV* pattern, you are living in the past! Say hello to **MVI** aka [Model View Intent](http://thenewstack.io/developers-need-know-mvi-model-view-intent/).
 
