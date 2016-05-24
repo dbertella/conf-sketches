@@ -61,22 +61,20 @@ You have to start learning a few concepts to understand reactive programming, li
 
 If you are using a *Flux* implementation for your front end architecture or even worst MVC / MVVM / MV* pattern, you are living in the past! Say hello to **MVI** aka [Model View Intent](http://thenewstack.io/developers-need-know-mvi-model-view-intent/).
 
-I'm personal quite happy with *Redux* at the moment but I think you need at least know what's going on around you.
+I'm personally quite happy with *Redux* for now but I think you need at least to know what's going on around you.
 
 The conclusion was that *Functional Reactive programming* isn't always the best thing to do but for sure it's great when you need to fetch lots of data and react.
-You can find slides [here](http://www.slideshare.net/flashplatform/reactive-programming-with-cyclejs)
+You can find slides [here](http://www.slideshare.net/flashplatform/reactive-programming-with-cyclejs).
 
 ## Out of the browser and onto the streets
 [@Rumyra](https://twitter.com/Rumyra) did the most pleasant talk of the day, with music and visual, it was party time already!
 
-Apparently she's [VJing](https://github.com/Rumyra/VJing) around projecting visual animations on buildings along with loud music. I'd love to see her in action. Unfortunately she haven't had the chance to do it during the party in Verona, but maybe next year 😀.
+Apparently she's [VJing](https://github.com/Rumyra/VJing) around projecting visual animations on buildings along with music. I'd love to see her live. Unfortunately she haven't had the chance to do it during the party in Verona, but maybe next year 😀.
 
-I'm sure if you are into visualization and audio you have loved this.
+She talked about the newest web APIs such as `animation`, `audio`, `strem` and `midi`. I encourage you to have check her [github](https://github.com/Rumyra) account. It's not that easy to find samples but you can have an idea about her projects.
 
-She talks about the newest web APIs such as `animation`, `audio`, `strem` and `midi`. I encourage you to have a look at her [github](https://github.com/Rumyra) account. It's not that easy to find samples but you can have an idea about her projects.
+She showed us a demo with voice control using a microphone and then another mixing music, video and visual animation.
 
-She showed us a demo with voice control from the microphone and then mixing music, video and visual animation.
-
-Last she ended up showing her hand made bag she's usign for VJing with a mac in it and her "mini" MIDI controller.
+Last she ended up showing her handmade bag with a mac and her "mini" MIDI controller inside that she's using for VJing.
 
 # Still interested in [day 2](./day-2.md)?
