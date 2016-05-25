@@ -10,9 +10,9 @@ He talked about the roadmap they had, early preview in April, beta in November 2
 Nice insights on the product, sure something to play with when you get bored of *Atom*.
 
 ## Building Reactive Architectures
-The talk by [@mattpodwysocki](https://twitter.com/mattpodwysocki) was great, I was getting bored since everybody was speaking about this topic but he explain it further, again *Functional reactive programming*, but a really nice and short talk, with all you need to know about RxJs.
+The talk by [@mattpodwysocki](https://twitter.com/mattpodwysocki) was great, I was skeptical at first, again *Functional reactive programming*, but in the end was a really nice and talk, with all you need to know about RxJs inside.
 
-Async is awful, we are living in a `Callback Hell` era and `Events and state are mess`.
+For @mattpodwysocki async is awful, we are living in a `Callback Hell` era and `Events and state are mess`.
 **Promise are only part of solution**.
 
 You can solve the Callback hell in the reactive way!
