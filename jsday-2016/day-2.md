@@ -5,7 +5,7 @@ Alexandru Dima is a Microsoft developer in the VS Code team and he did a very gr
 
 It was really helpful to understand at least why Microsoft didn't just fork (and contribute on) *Atom editor* but they choose to create another editor with same technology.
 
-Basically they started in 2014 working on it using `node-webkit` as a platform switching to `electron` later on.
+Basically they started to work on it in 2014 using `node-webkit` as a platform switching to `electron` later on.
 He talked about the roadmap they had, early preview in April, beta in November 2015 and 1.0 in April 2016.
 Nice insights on the product, sure something to play with when you get bored of *Atom*.
 
@@ -22,7 +22,7 @@ Keys:
 - React to failure
 - React to users
 
-This man is a great on the stage with his sorcerer hat in the head.
+This man is great on stage with his sorcerer hat on his head.
 
 > You must flatMap it
 
@@ -38,7 +38,7 @@ Not much to say about it, it was a really entry level talk by Daniela Mogini.
 Some insights on how to manipulate DOM, handling Array of data natively in D3js.
 
 The entry slogan was good: `this has nothing to do with jQuery` but it seems a lot like it to me in general.
-Don't get me wrong, I know that D3.js it's really powerful but at the end of this talk I haven't feel much of the awesomeness.
+Don't get me wrong, I know that D3.js it's really powerful but at the end of this talk I haven't feel much of its awesomeness.
 
 ## The Evolution of Asynchronous JavaScript
 [@cirpo](https://twitter.com/cirpo) gave us another really good talk about async in javascript.
@@ -53,7 +53,7 @@ But *Promises* aren't always the best choice, you don't use them in flow control
 *Generators*, a new type of function that doesn't have the *run-to-completion* behaviour of the other functions.
 They have a *yield* keyword that can pause/restart the flow and you have full control on it.
 
-Unfortunately you have to use libraries to use them but seems like the next javascript, ES7 (ehm ES2016), will ship async / await natively.
+Unfortunately you have to import libraries to use them but seems like the next javascript, ES7 (ehm ES2016), will ship async / await natively.
 You can start playing with it using babel (or typescript).
 ```
 npm install -g babel-cli
@@ -77,7 +77,7 @@ node a.js
 ## (Web?) Components in production
 [@olamad313](https://twitter.com/olamad313) is a UX Designer at Amazon Web Services and gave us a great view about how they handle components in their teams across the world. She didn't speak about libraries or polyfill (*Polimer* for example), they don't actually use one apparently because they didn't want to depend on it.
 
-They build their component using plain javascript embracing web components philosophy and then they also build the bridge to connect components with frameworks or libraries teams choose to use (GWT, Angular, and React).
+They build their components using plain javascript embracing web components philosophy and then they also build the bridge to connect them with frameworks or libraries their teams choose to use (GWT, Angular, and React).
 
 They keep principles like custom elements and style encapsulation from web components and they reached few benefits:
  - Components are easy to grab for new teams.
@@ -86,11 +86,11 @@ They keep principles like custom elements and style encapsulation from web compo
  - A sparked community engagement.
 
 ## FFTT: A new concept of build tool
-[@m_a_s_s_i](https://twitter.com/m_a_s_s_i) talks about his side project, and invite every one (who can understand what is it about) to contribute on it. Basically he's building his own build tool to replace `grunt`, `gulp` or `webpack` (I'm writing only the most famous one).
+[@m_a_s_s_i](https://twitter.com/m_a_s_s_i) talked about his side project, and invite every one (who can understand what is it about) to contribute on it. Basically he's building his own build tool to replace `grunt`, `gulp` or `webpack` (I'm writing only the most famous).
 Unsatisfied with the job those tools are doing @m_a_s_s_i writes his own to accomplish what he really needs: a fast, deterministic, reliable and language agnostic build tool.
 
 The build system meet functional programming, immutable data structures, memoization of functions result, each step is a pure function.
-You never mess with the environment, it's just data transformation other data.
+You never mess with the environment, it's just data transformation.
 The build graph is declarative and functional. Each build step is imperative but inside a *container*, so you don't mess up with system.
 
 It's built with not many lines of javascript but it's totally programming language independent.
@@ -114,6 +114,19 @@ He explains *high order function* as functions that accept a function as an argu
 
 So HOC are high order functions that, instead, return a component.
 
+## A Modern debugging experience using DevTools by [@umaar](https://twitter.com/umaar), modern techniques for debugging JavaScript code.
+
+Umar covered different ways to debug our code using the Chrome DevTools.
+For example he explained how to:
+  - Use Quick Source Pane for faster CSS editing
+  - Trigger pseudo classes in DevTools
+  - Use the animation inspector to change and modify running animations
+  - Try out the official DevTools dark theme
+  - Copy the response of a network resource to your clipboard
+and much more!
+
+You can find all this techniques explained in his [slides](https://umaar.github.io/devtools-animated-2016)
+
 ## A Class Action
 Last talk of the conference by [@unlucio](https://twitter.com/unlucio), a dispute on probably the most controversial feature in ES2016: the `class` keyword.
 
@@ -121,7 +134,7 @@ He called few witnesses for the *dispute*:
   - `miss function`: do we really need a shorthand for manually defining a constructor Function?
 
   - `the prototype`: If you want to write once and use your code in multiple situation, prototypal inheritance makes this easy.
-  - `class`: does she really add something new to the language and will she simplify everybody's life?
+  - `class`: does it really add something new to the language and will she simplify everybody's life?
 
 *OOP is good for you... at least that what they say*
 
@@ -131,8 +144,8 @@ For code segregation choose `modules` over `classes`
 
 I liked the reference to the coffee and sugar:
 
-When coffee is good you don't need sugar, and `class` seems more like aspartame than sugar.
-The difference is that aspartame can kill you!
+> When coffee is good you don't need sugar, and `class` seems more like aspartame than sugar.
+> The difference is that aspartame can kill you!
 
-To sum up it was a really nice conclusion for a really nice two days conference in Verona.
+To sum up, it was a really nice conclusion of these wonderful two days conference in Verona.
 I encourage you to have a look at [slides](http://www.slideshare.net/unlucio/a-class-action) that are self explanatory.
