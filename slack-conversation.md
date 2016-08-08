@@ -1,3 +1,6 @@
+# React channel
+
+## Idee su come gestire l'ereditarietà del `context`, con la possibilità di fare modifiche da un certo punto della app in poi
 
 Matteo Ronchi [10:16 AM]  
 @gianmarcotoso @michele @lucacolonnellocrweb e chiunque altro abbia input utili, ho una domanda per voi:
@@ -358,6 +361,7 @@ Matteo Ronchi [11:05 AM]
 :wink:
 
 -----------
+## Idea sperimentale 
 
 Luca Colonnello [4:33 PM]  
 Ragazzi volevo porvi una soluzione che ho trovato ad un problema
@@ -793,7 +797,7 @@ Michele Bertoli [5:38 PM]
 ;)
 
 ----------------
-
+## Aphrodite, esempi css in js 
 
 Matteo Ronchi [9:10 AM]  
 domandona del lunedì mattina: cosa ne pensate di `aphrodite` (no pun) @michele @lucacolonnellocrweb @danieleb @gianmarcotoso
