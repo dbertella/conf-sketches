@@ -1,3 +1,6 @@
+# React channel
+
+## Idee su come gestire l'ereditarietà del `context`, con la possibilità di fare modifiche da un certo punto della app in poi
 
 Matteo Ronchi [10:16 AM]  
 @gianmarcotoso @michele @lucacolonnellocrweb e chiunque altro abbia input utili, ho una domanda per voi:
@@ -7,7 +10,7 @@ L’uso del `context` è opzionale se ci sono altri approcci che funzionano
 **TL,DR;** per riassumere la radice ha 4 figli e 3 ricevono il colore rosso, ma uno e tutti is uoi children voglio ricevano blue definendolo solo in quel nodo padre di quel ramo
 
 Michele Bertoli [10:20 AM]  
-bhe' il context funziona gia' cosi' nel senso di sovrascrivere i valori per i figli 
+bhe' il context funziona gia' cosi' nel senso di sovrascrivere i valori per i figli
 
 Matteo Ronchi [10:21 AM]  
 si ma è globale no?
@@ -74,9 +77,9 @@ e non mi piace molto
 Michele Bertoli [10:29 AM]  
 http://www.react.run/rJ4F2T-t/3 (edited)
 funziona anche con oggetti
- 
+
 Matteo Ronchi [10:30 AM]  
-@michele quindi ogni ramo può sovrascrivere valori senza impatatre gli altri rami (edited) 
+@michele quindi ogni ramo può sovrascrivere valori senza impatatre gli altri rami (edited)
 questo non lo sapevo
 
 Michele Bertoli [10:30 AM]  
@@ -84,7 +87,7 @@ Michele Bertoli [10:30 AM]
 l'ho scoperto qui: https://twitter.com/ryanflorence/status/717597674040467456
  Ryan Florence @ryanflorence
 @MicheleBertoli cool, but I think you are now limited to a single Provider in the app, no? The second you provide twice it shadows __data.
-TwitterApril 6th at 8:19 AM 
+TwitterApril 6th at 8:19 AM
 
 Matteo Ronchi [10:33 AM]  
 figo @michele!
@@ -358,6 +361,7 @@ Matteo Ronchi [11:05 AM]
 :wink:
 
 -----------
+## Idea sperimentale
 
 Luca Colonnello [4:33 PM]  
 Ragazzi volevo porvi una soluzione che ho trovato ad un problema
@@ -793,7 +797,7 @@ Michele Bertoli [5:38 PM]
 ;)
 
 ----------------
-
+## Aphrodite, esempi css in js
 
 Matteo Ronchi [9:10 AM]  
 domandona del lunedì mattina: cosa ne pensate di `aphrodite` (no pun) @michele @lucacolonnellocrweb @danieleb @gianmarcotoso
@@ -857,7 +861,7 @@ Michele Bertoli [9:24 AM]
 Giusto
 
 Matteo Ronchi [9:30 AM]  
-quindi per fare tirare le somme: 
+quindi per fare tirare le somme:
 * `aphrodite` è usata da progetti grandi, non pare avere particolari drawback se non in scenari dove generi davvero tanti nuovi stili in continuazione. Non è legata solo a React
 * `radium` anch’essa usata da grandi progetti ha + limiti verso media queries e altri aspetti css ma non ha altri grandi limiti. E’ legata a react e wrappa il `render` method
 * `react-fela` è un pò un aphrodite on steroids ma non ha usi reali in grandi progetti ed è mantenuta da un singolo dev. Come radium si interpone/modifica i comportamenti di React per funzionare
@@ -888,12 +892,11 @@ loro sul sito dicono che è usato da FB stessa :stuck_out_tongue:
 
 Michele Bertoli [10:00 AM]  
 un'altra alternativa
-che mi dimentico sempre perche' il tizio mi sta antipatico
 e' https://github.com/cssinjs/jss
 
 Matteo Ronchi [10:01 AM]  
 si l’ho vista non mi ha convinto però
-m isembra che non sia usata in progetti reali importanti o sbalgio?
+mi isembra che non sia usata in progetti reali importanti o sbalgio?
 
 Michele Bertoli [10:05 AM]  
 quello non lo so (percio' penso di no)
@@ -929,3 +932,37 @@ grazie mille! sei il mio salvavita
 https://github.com/Khan/aphrodite/issues/100
 questo è inerente, se ti può interessare
 
+Luca Colonnello [11:36 AM]  
+l’ho vista anche io glamor
+seguiamo la stessa gente!!!
+
+Michele Bertoli [11:43 AM]  
+io seguo tutti quelli che mettono le parole css e js nello stesso tweet : )
+
+Luca Colonnello [11:43 AM]  
+si io anche react redux e graphql
+ce ne sono un botto
+cmq
+se vi può essere utile un mio collega ha trovato questo
+https://medium.com/@oleg008/aphrodite-vs-jss-a15761b91ee3#.gyovlnjce
+però sul fatto che il render così è async ha ragione
+aphrodite ha questo unico difetto che il css purtroppo viene inserito nel dom in modo async
+quindi vedi il componente laggare prima di essere completamente renderizzato
+mi piacerebbe risolvere il problema con aphrodite però
+vero
+non riesco invece a capire se glamor genera css inline o tag style
+
+> We introduce an api to annotate arbitrary dom nodes with style definitions ("rules") for, um, the greater good.
+
+però non capisco dove lo fa perchè non c’è nessun setup richiesto a inizio app se non per server side rendering
+
+Michele Bertoli [12:00 PM]  
+la versione che ho provato io
+generava css
+e non usava classi ma attributi
+
+Luca Colonnello [12:01 PM]  
+ho letto
+data-*
+ma sono più lenti nella selezione css
+non mi piacciono molto
