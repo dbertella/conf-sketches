@@ -792,4 +792,140 @@ abbiamo fatto questo :slightly_smiling_face:
 Michele Bertoli [5:38 PM]  
 ;)
 
+----------------
+
+
+Matteo Ronchi [9:10 AM]  
+domandona del lunedì mattina: cosa ne pensate di `aphrodite` (no pun) @michele @lucacolonnellocrweb @danieleb @gianmarcotoso
+
+Luca Colonnello [9:11 AM]  
+Per me è favoloso, ma non l'ho ancora provato.. l'idea di poter creare pacchetti altamente modificabili da css è stupenda.. bisogna vedere un po' per il debug che magari può diventare morboso, ma alla fine non è proprio un compilato quindi quello che vedi in console può bastare
+
+Michele Bertoli [9:12 AM]  
+Aphrodite è una delle soluzioni più sensate
+Anche perchè è arrivata quando l'universo dei css in js era stato già esplorato
+E altri progetti erano falliti
+
+Matteo Ronchi [9:13 AM]  
+si infatti il concetto mi piace molto, unica cosa che non mi esalta è che ogni volta che cambi una prop css crei una classe nuova
+
+Michele Bertoli [9:13 AM]  
+Mette insieme la comodità degli oggetti js per gli stili, con l'output di vero css
+
+Matteo Ronchi [9:13 AM]  
+mi piace molto di più degli inline styles puri
+
+Michele Bertoli [9:14 AM]  
+Yes
+Una feature molto interessante
+
+Matteo Ronchi [9:14 AM]  
+vedevo che loro consigliano di usare `react-look` come alternativa che ora è deprecated in favore di `react-fela`
+
+Michele Bertoli [9:14 AM]  
+È che inietta solo gli stili attualmente in uso
+L'autore di fela
+È co-maintainer del mio repo
+
+Matteo Ronchi [9:15 AM]  
+:open_mouth:
+e cosa cambia / ne pensi tra fela e aphrodite?
+
+Michele Bertoli [9:15 AM]  
+È un tipo molto smart
+
+Matteo Ronchi [9:16 AM]  
+una cosa che ha peso per aphrodite è anche che è sviluppata appositamente per paypal quindi dovrebbe avere una longevità/continuità più stabile (edited)
+anche se non so su quali app la usano
+ah no vedo che lo usano in produzione
+
+Michele Bertoli [9:19 AM]  
+Sisi la usano in prod in paypal
+Infatti
+Secondo me fela ha delle feature anche più interessanti
+Es. Plugins
+Ma non diventerà mai così popolare
+Una soluzione da tenere d'occhio
+È https://github.com/geelen/css-components-demo
+Sta nascendo in sti giorni ma ha un grande potenziale
+
+Matteo Ronchi [9:22 AM]  
+interessante!
+però come x radium non  mi esalta il fatto che decori/modifichi il comportamento/output di react
+
+Michele Bertoli [9:24 AM]  
+Giusto
+
+Matteo Ronchi [9:30 AM]  
+quindi per fare tirare le somme: 
+* `aphrodite` è usata da progetti grandi, non pare avere particolari drawback se non in scenari dove generi davvero tanti nuovi stili in continuazione. Non è legata solo a React
+* `radium` anch’essa usata da grandi progetti ha + limiti verso media queries e altri aspetti css ma non ha altri grandi limiti. E’ legata a react e wrappa il `render` method
+* `react-fela` è un pò un aphrodite on steroids ma non ha usi reali in grandi progetti ed è mantenuta da un singolo dev. Come radium si interpone/modifica i comportamenti di React per funzionare
+
+Luca Colonnello [9:56 AM]  
+a me onestamente non preoccupa molto il casso della generazione live dello style
+penso che faccia memoizzazione
+
+Matteo Ronchi [9:57 AM]  
+si fa memoization
+però la chiave è la serializzazione in JSON dell’intero oggetto passato alla lib
+quindi imho va gestito con attenzione quando generi/rigeneri gli stili usando `css()` (edited)
+se no è vero che non genera nuove classi css ma fai cmq serializzare uno sproposito di oggetti ad ogni render
+
+Michele Bertoli [10:00 AM]  
+eccomi in ufficio
+
+Matteo Ronchi [10:00 AM]  
+:slightly_smiling_face:
+
+Michele Bertoli [10:00 AM]  
+ottime conclusioni @cef62
+radium tra l'altro non sono sicuro sia utilizzato davvero in progetti grossi
+(a parte le cose che fa formidable labs)
+
+Matteo Ronchi [10:00 AM]  
+loro sul sito dicono che è usato da FB stessa :stuck_out_tongue:
+
+Michele Bertoli [10:00 AM]  
+un'altra alternativa
+che mi dimentico sempre perche' il tizio mi sta antipatico
+e' https://github.com/cssinjs/jss
+
+Matteo Ronchi [10:01 AM]  
+si l’ho vista non mi ha convinto però
+m isembra che non sia usata in progetti reali importanti o sbalgio?
+
+Michele Bertoli [10:05 AM]  
+quello non lo so (percio' penso di no)
+pero' e' la piu' matura (edited)
+es. quando ho iniziato con il mio repo c'era gia'
+c'e' questa che funziona in modo super strano
+https://github.com/threepointone/glamor
+e siccome l'ha twittata mj sta ricevendo un sacco di attenzione
+ma se vuoi andare sul sicuro aphrodite e' quello che fa per te
+
+Matteo Ronchi [10:07 AM]  
+si ho visto quella di threepointone
+fa cose molto cool
+però è troppo nuova
+si infatti aphrodite mi sembra il miglior compromesso
+anche se un sistema di plugins sarebbe figo
+
+Michele Bertoli [10:08 AM]  
+confermo
+
+Matteo Ronchi [10:43 AM]  
+ragazzi idee su come supportareflexbox per ie11 con aphrodite?
+
+Michele Bertoli [10:49 AM]  
+https://github.com/rofrischmann/inline-style-prefixer
+sembra che aphrodite usi questa
+dovresti essere a posto
+
+Matteo Ronchi [10:59 AM]  
+si infatti stavo guardando proprio ora!
+grazie mille! sei il mio salvavita
+
+https://github.com/Khan/aphrodite/issues/100
+questo è inerente, se ti può interessare
 
