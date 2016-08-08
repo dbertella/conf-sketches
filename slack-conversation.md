@@ -965,3 +965,100 @@ ho letto
 data-*
 ma sono più lenti nella selezione css
 non mi piacciono molto
+
+
+____________
+
+Matteo Ronchi [2:31 PM]  
+...  
+in ogni caso sto iniziando uno uikit abbastanza impegnativo con aphrodite, nelle prox week ti potrò dire di più :slightly_smiling_face:
+
+Luca Colonnello [2:35 PM]  
+grande mi interessa proprio questo
+purtroppo è una delle attività che faranno qui quando me ne sarò andato
+
+Matteo Ronchi [2:35 PM]  
+XD
+
+Luca Colonnello [2:35 PM]  
+quindi mi interesserebbe dargli dei feedback prima che comincino
+ma non ne ho il tempo ora di provarlo
+
+Matteo Ronchi [2:35 PM]  
+sto disegnando ora il layer di astrazione (theme-manager, HoCs, etc…) (edited)
+
+Luca Colonnello [2:35 PM]  
+buonooo
+alla fine fai come dicevamo più o meno l’altra volta?
+
+Matteo Ronchi [2:36 PM]  
+l’idea è che i componenti siano completamente slegati dal layer them/css/styles
+ci sarà un HoC che riceve le props, il context (come dicevamo) etc… e produce delle classi css per il comp figlio
+un pò come redux ma per gli stili
+
+Luca Colonnello [2:37 PM]  
+ah ok
+bene
+
+Matteo Ronchi [2:37 PM]  
+quindi il comp riceve un oggetto con le chiavi tipo `{ background, header, body }`
+che sono le classi prodotte da aphrodite nell'HoC
+l’idea è che se mi slego da aphrodite non devo modificare i componenti ma solo l'HoC
+ovvio se passo a stili inline devo modificare il comp
+ma finché uso classi css tutto va via liscio
+
+Luca Colonnello [2:38 PM]  
+a beh si
+ma in teoria aphrodite di per se slega già molto perchè tu usi un css prodotto come fosse css modules
+con oggetto styles per dire
+quindi sei abbastanza slegato
+
+Matteo Ronchi [2:39 PM]  
+si
+
+Luca Colonnello [2:39 PM]  
+al massimo all’HoC gli fai generare tutto
+
+Matteo Ronchi [2:39 PM]  
+ma io non voglio 2 cose:
+
+Luca Colonnello [2:39 PM]  
+e ricevi solo oggetto css o styles nel comp
+
+Matteo Ronchi [2:39 PM]  
+- 1. invocare `css()` nella render function
+- 2. invocare `css()` ad ogni render
+
+Luca Colonnello [2:39 PM]  
+come dicevamo si
+si e l’HoC potrebbe memoizzare e modificare quello che cambia e rigenerare css solo se cambia qualcosa
+
+Matteo Ronchi [2:40 PM]  
+è vero che se la classe è già iniettata è leggero ma fa cmq un `filter` + `join` + un paio di `if`
+
+Luca Colonnello [2:40 PM]  
+anche se lo fa già lui ma ad alto livello non lo reinvochi
+si si
+
+Matteo Ronchi [2:40 PM]  
+l’invocazione di `css()` se la fai su centinaia di componenti è cmq inutile e consuma risorse
+è come il `bind` nella render fn
+non impatta realmente la tua app ma è uno spreco inutile
+
+Luca Colonnello [2:41 PM]  
+si si sono d'accordo
+lo farei uguale probabilmente io
+
+Matteo Ronchi [2:42 PM]  
+inoltre, spezzare `css()` dentro l’HoC mi da un altro vantaggio
+posso scegliere se aggregare i vari stili in 1 o N classi css
+tanto al comp figlio passo una stringa
+lui non guarda se è composta da 1 o N nomi di classi
+
+Luca Colonnello [2:42 PM]  
+si infatti
+e puoi gestire concatenazioni o merge vari con config passate dall’esterno al componente o dal provider del tema
+si si
+ottimo
+giusto così
+vai chef!!
