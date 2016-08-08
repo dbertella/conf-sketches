@@ -933,3 +933,84 @@ grazie mille! sei il mio salvavita
 https://github.com/Khan/aphrodite/issues/100
 questo è inerente, se ti può interessare
 
+Luca Colonnello [11:36 AM]  
+l’ho vista anche io glamor
+seguiamo la stessa gente!!!
+
+Michele Bertoli [11:43 AM]  
+io seguo tutti quelli che mettono le parole css e js nello stesso tweet : )
+
+Luca Colonnello [11:43 AM]  
+si io anche react redux e graphql
+ce ne sono un botto
+cmq
+se vi può essere utile un mio collega ha trovato questo
+https://medium.com/@oleg008/aphrodite-vs-jss-a15761b91ee3#.gyovlnjce
+
+Michele Bertoli [11:45 AM]  
+esatto
+quello e' uno dei motivi per cui il creatore di jss mi sta antipatico :)
+
+Luca Colonnello [11:48 AM]  
+:slightly_smiling_face:
+però sul fatto che il render così è async ha ragione
+aphrodite ha questo unico difetto che il css purtroppo viene inserito nel dom in modo async
+quindi vedi il componente laggare prima di essere completamente renderizzato
+
+Michele Bertoli [11:50 AM]  
+no no
+
+Luca Colonnello [11:50 AM]  
+no?
+
+Michele Bertoli [11:50 AM]  
+non dubito che nell'articolo
+ci siano informazioni corrette
+io mi riferisco all'atteggiamento
+
+Luca Colonnello [11:50 AM]  
+dici che ho capito un cavolo io? ahaha
+ah ok (edited)
+
+Michele Bertoli [11:50 AM]  
+no no hai capito tutto
+mi sono spiegato male io
+
+Luca Colonnello [11:50 AM]  
+:slightly_smiling_face:
+
+Michele Bertoli [11:50 AM]  
+il tizio e' sempre molto rude
+e altezzoso
+quindi per me puo' anche essere il dev migliore del mondo
+
+Luca Colonnello [11:50 AM]  
+si è vero
+
+Michele Bertoli [11:50 AM]  
+ma faccio fatica ad apprezzare il suo lavoro
+es. dan abramov e' incredibilmente gentile ed educato
+per questo mi piace tanto
+:)
+
+Luca Colonnello [11:51 AM]  
+mi piacerebbe risolvere il problema con aphrodite però
+vero
+
+Luca Colonnello [11:58 AM]  
+non riesco invece a capire se glamor genera css inline o tag style
+
+> We introduce an api to annotate arbitrary dom nodes with style definitions ("rules") for, um, the greater good.
+
+però non capisco dove lo fa perchè non c’è nessun setup richiesto a inizio app se non per server side rendering
+
+Michele Bertoli [12:00 PM]  
+la versione che ho provato io
+generava css
+e non usava classi ma attributi
+
+Luca Colonnello [12:01 PM]  
+ho letto
+data-*
+ma sono più lenti nella selezione css
+non mi piacciono molto
