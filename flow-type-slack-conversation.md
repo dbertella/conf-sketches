@@ -60,7 +60,7 @@ dej611 [10:27 AM]
 ieri hanno pubblicato un articolo su come integrare `flow` in un progetto che già utilizza babel
 
 cef62 [10:27 AM]  
-questo dici? 
+questo dici?
 https://medium.com/@thejameskyle/using-flow-with-babel-c04fdca8d14d#.v2eo3chr3
 
 dej611 [10:27 AM]  
