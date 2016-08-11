@@ -7,8 +7,6 @@ Curiosità: come gestite scenari in cui avete una factory che produce oggetti e 
 
 agos [9:29 AM]  
 5. uso un linguaggio con un check statico dei tipi? :stuck_out_tongue:
-
-[9:32]  
 6. scrivo un test (edited)
 
 cef62 [9:34 AM]  
@@ -26,14 +24,10 @@ non aggiungerei un campo, piuttosto testerei il comportamento dell'oggetto
 
 cef62 [9:57 AM]  
 concordo, infatti se non ho istanze di solito tendo a controllare l’interfaccia dell'oggetto
-
-[9:58]  
 solo in dev-mode però non in produzione
 
 gcanti [10:17 AM]  
 @cef62 userei una classe + `instanceof` (metodo nominale) oppure una libreria per il type checking (metodo strutturale)
-
-[10:17]  
 quindi 3) o 4)
 
 cef62 [10:17 AM]  
@@ -44,8 +38,6 @@ duck typing (4) (edited)
 
 cef62 [10:19 AM]  
 per le classi preferirei evitare di avere istanze se possibile
-
-[10:19]  
 quindi `instanceof` è molto utile ma se posso seguo alternative :wink:
 
 gcanti [10:20 AM]  
@@ -53,11 +45,7 @@ lo strutturale è più costoso ma lo puoi eseguire solo in dev
 
 cef62 [10:20 AM]  
 assolutamente
-
-[10:21]  
 è un check che mi interessa solo in sviluppo
-
-[10:21]  
 in produzione lo ignoro in ogni caso
 
 gcanti [10:21 AM]  
@@ -65,11 +53,7 @@ se già usi babel e non vuoi lasciare "nessun segno" nella codebase puoi dare un
 
 cef62 [10:22 AM]  
 si li conosco ma preferisco qualcosa di esplicito, semplicemente rimuovo le espressioni condizionali con NODE_ENV === ‘development'
-
-[10:22]  
 sto solo indagando le preferenze e le diverse tecniche :slightly_smiling_face:
-
-[10:23]  
 è sempre interessante vedere come altri affrontano situazioni comuni ma non per forza banali :wink:
 
 dej611 [10:27 AM]  
@@ -78,16 +62,6 @@ ieri hanno pubblicato un articolo su come integrare `flow` in un progetto che gi
 cef62 [10:27 AM]  
 questo dici? 
 https://medium.com/@thejameskyle/using-flow-with-babel-c04fdca8d14d#.v2eo3chr3
- Medium
-Setting up Flow when you’ve already got Babel in place
-Flow is a static type checker for JavaScript. It makes you more productive by providing feedback as you write code. Flow gives you warnings…
-Reading time
-----------------
-7 min read
-
-(24KB)
-Yesterday at 4:53 PM
-
 
 dej611 [10:27 AM]  
 si
@@ -100,23 +74,15 @@ un qualcosa così ti risolverebbe le cose meglio del duck typing o dell’`insta
 
 cef62 [10:33 AM]  
 verissimo
-
-[10:33]  
 ma come team è stato deciso di non usare un type checker al momento
-
-[10:33]  
 quindi per ora è un opzione che lascio da parte
 
 pigoz [10:34 AM]  
 al momento io sto usando tcomb, ma penso che presto farò il salto
-
-[10:34]  
 tenendo comunque tcomb con il plugin
 
 cef62 [10:34 AM]  
 devo essere sincero che scrivere JS definendo i tipi mi lascia perplesso :confused:
-
-[10:35]  
 non per i vantaggi
 
 pigoz [10:35 AM]  
@@ -127,8 +93,6 @@ ma a pelle XD
 
 dej611 [10:35 AM]  
 ma flow funziona anche senza definizione dei tipi
-
-[10:35]  
 con le definizioni funziona meglio, ma il motore sotto, almeno prima, inferiva il tipo
 
 pigoz [10:36 AM]  
@@ -148,8 +112,6 @@ c’è spiegato nell’articolo
 
 cef62 [10:37 AM]  
 :wink: non lo ho ancora letto era nei preferiti, tnx
-
-[10:37]  
 flow è parecchi mesi che non lo guardo
 
 dej611 [10:37 AM]  
@@ -160,8 +122,6 @@ ma se non le voglio?
 
 dej611 [10:37 AM]  
 ma immagino che altrimenti il motore cerchi di capirlo
-
-[10:38]  
 non saprei
 
 cef62 [10:38 AM]  
@@ -169,11 +129,7 @@ tnx :wink: mi informerò
 
 gcanti [10:39 AM]  
 attenzione però che per come funziona l'inferenza di flow potreste avere risultati sorprendenti a prima vista, occorre metterle le type annotation, almeno in punti strategici
-
-[10:39]  
 questo ad esempio non solleva errori `const a = [1, 2, 3]; a.push('s')`
-
-[10:41]  
 perchè flow, in assenza di annotazioni, inferisce il tipo dall'uso. Sopra `a` ha tipo `Array<number | string>`
 
 cef62 [10:41 AM]  
@@ -184,20 +140,14 @@ mentre questo non passa `const a: Array<number> = [1, 2, 3]; a.push('s')`
 
 dej611 [10:43 AM]  
 nel primo caso non è sbagliato
-
-[10:44]  
 è che se vuoi solo interi devi restringere il controllo giustamente
 
 gcanti [10:45 AM]  
 per typescript è un errore il primo esempio
-
-[10:45]  
 per flow no
 
 cef62 [10:49 AM]  
 devo davvero trovare il tempo di approfondire i 2 sistemi e le differenze
-
-[10:49]  
 grazie :wink:
 
 gcanti [10:51 AM]  
@@ -215,8 +165,6 @@ le annotazioni possono essere aggiunte anche tramite commenti, il procedimento q
 
 dej611 [11:14 AM]  
 questo è quello che ho fatto qui dove sono. Nessun inconsistenza trovata
-
-[11:16]  
 Però il rendere tutto più restrittivo dipende molto da quel che devi produrre, a volte devi convivere anche con robe legacy che non ti permettono di chiudere i cancelli alle stringhe negli array :disappointed:
 
 sa_su_ke [11:28 AM]  
@@ -224,8 +172,6 @@ sa_su_ke [11:28 AM]
 
 cef62 [11:35 AM]  
 :slightly_smiling_face: ho ben presente
-
-[11:35]  
 qualcuno con cui litigare c’è sempre XD
 
 zanza00 [11:39 AM]  

@@ -948,8 +948,7 @@ https://medium.com/@oleg008/aphrodite-vs-jss-a15761b91ee3#.gyovlnjce
 però sul fatto che il render così è async ha ragione
 aphrodite ha questo unico difetto che il css purtroppo viene inserito nel dom in modo async
 quindi vedi il componente laggare prima di essere completamente renderizzato
-mi piacerebbe risolvere il problema con aphrodite però
-vero
+mi piacerebbe risolvere il problema con aphrodite però vero
 non riesco invece a capire se glamor genera css inline o tag style
 
 > We introduce an api to annotate arbitrary dom nodes with style definitions ("rules") for, um, the greater good.
